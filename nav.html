@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    font-family: "Heebo",sans-serif;
+font-size: 1rem;
+color: #52565b;
+}
+ul {
+display: flex;
+align-items: center;
+background-color: #fff;
+list-style: none; /* removes bullets */
+padding: .5em;
+margin: -9px -9px;
+box-shadow: 0 0.5rem 1rem rgba(2, 2, 2, 0.15) !important;
+width: 100%;
+flex-wrap: wrap;
+}
+li {
+margin: 0 1em;
+}
+li.logo {
+margin-right: auto;
+}
+li a{
+display: block;
+color: green;
+text-align: center;
+padding: 5px;
+text-decoration: none;
+font-weight: bolder;
+}
+.close{
+    display: flex;
+}
+.close:hover{
+    background-image: url(../blog/images/close-prelight.png) ;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+</style>
+<body>
+    <ul>
+        <li class="logo"><img src="images/logo.png" alt="LoGoCo" style="height: 30px;"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+    
+    <div class="close">
+     <img src="images/close.png" alt="test">
+    </div>
+</body>
+</html>
