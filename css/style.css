@@ -336,6 +336,50 @@ ul{
     border-bottom: 1px solid black;
     margin-top: 15px;
 }
+/*form*/
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 154, 154);
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.form-area .form-container .form-element label{
+    display: block;
+}
+.form-area .form-container .form-element input{
+    width: 100%;
+    margin: 15px 0;
+    height: 50px;
+    padding-left: 15px;
+    outline: none;
+    color: black;
+    border: 3px solid white ;
+    border-radius: 10px;
+
+}
+textarea,
+input{
+    width: 100%;
+    font-weight: 400;
+    padding: 8px 10px;
+    border-radius: 10px;
+    height: 10rem;
+
+}
+textarea:focus,
+input:focus{
+    outline: none;
+    border: blue;
+}
+
 
 /*RESPONSIVE*/
 @media screen and (max-width:768px){
