@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "poppins" sans-serif;
+    font-weight: 600;
+    
 }
 
 body{
@@ -349,13 +351,13 @@ ul{
 h2{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
 }
 .form-area .form-container .form-element label{
     display: block;
 }
 .form-area .form-container .form-element input{
-    width: 100%;
+    width: 25rem;
     margin: 15px 0;
     height: 50px;
     padding-left: 15px;
@@ -378,6 +380,13 @@ textarea:focus,
 input:focus{
     outline: none;
     border: blue;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 600;
 }
 
 
@@ -437,6 +446,11 @@ input:focus{
         font-size: 300;
         font-family: 'Courier New', Courier, monospace;
     }
+    .form-area .form-container .form-element input{
+        width: 13rem;
+        
+
+    } 
 }
 
 
